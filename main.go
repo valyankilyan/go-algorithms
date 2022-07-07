@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/valyankilyan/go-algorithms/sort/mergesort"
+	"github.com/valyankilyan/go-algorithms/sort/quicksort"
 )
 
 func main() {
@@ -17,7 +17,8 @@ func main() {
 	}
 
 	for _, arr := range test {
-		mergesort.MergeSort(arr)
+		// mergesort.MergeSort(arr)
+		quicksort.QuickSort(arr, 0, len(arr)-1)
 	}
 	fmt.Println(test)
 }
