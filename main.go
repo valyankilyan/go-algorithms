@@ -20,7 +20,8 @@ func main() {
 		// mergesort.MergeSort(arr)
 		// quicksort.QuickSort(arr)
 		// sorts.BubbleSort(arr)
-		sorts.SelectionSort(arr)
+		// sorts.SelectionSort(arr)
+		sorts.InsertionSort(arr)
 	}
 	fmt.Println(test)
 }
