@@ -1,4 +1,4 @@
-package quicksort
+package sorts
 
 import (
 	"github.com/valyankilyan/go-algorithms/constraints"
