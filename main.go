@@ -21,7 +21,8 @@ func main() {
 		// quicksort.QuickSort(arr)
 		// sorts.BubbleSort(arr)
 		// sorts.SelectionSort(arr)
-		sorts.InsertionSort(arr)
+		// sorts.InsertionSort(arr)
+		sorts.HeapSort(arr)
 	}
 	fmt.Println(test)
 }
