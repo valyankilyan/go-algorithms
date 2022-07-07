@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/valyankilyan/go-algorithms/sort/quicksort"
+	"github.com/valyankilyan/go-algorithms/sort/bubblesort"
 )
 
 func main() {
@@ -18,7 +18,8 @@ func main() {
 
 	for _, arr := range test {
 		// mergesort.MergeSort(arr)
-		quicksort.QuickSort(arr, 0, len(arr)-1)
+		// quicksort.QuickSort(arr)
+		bubblesort.BubbleSort(arr)
 	}
 	fmt.Println(test)
 }
